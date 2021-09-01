@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/grid.css" />
+    <title>Sass Grid System</title>
+    <style>
+      .grid > div {
+        border: solid 10px white;
+        background: lightblue;
+        box-sizing: border-box;
+        padding: 20px 10px;
+      }
+
+      .grid > div > p {
+        text-align: center;
+        font-size: xx-large;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 style="text-align: center">Hola Mundo</h1>
+    <div class="grid">
+      <div class="col-12 col-sm-4 col-md-6 col-lg-12"><p>1</p></div>
+      <div class="col-6 col-sm-4 col-md-6 col-lg-6"><p>2</p></div>
+      <div class="col-6 col-sm-4 col-md-12 col-lg-6"><p>3</p></div>
+      <div class="col-12 col-sm-6 col-md-8 col-lg-12"><p>4</p></div>
+      <div class="col-6 col-sm-6 col-md-4 col-lg-4"><p>5</p></div>
+      <div class="col-6 col-sm-8 col-md-4 col-lg-4"><p>6</p></div>
+      <div class="col-12 col-sm-4 col-md-8 col-lg-4"><p>7</p></div>
+    </div>
+    <h2>Grid system:</h2>
+    <ul>
+      <li style="font-size: x-large">Kevin Gonzalez</li>
+    </ul>
+  </body>
+</html>
